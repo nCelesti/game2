@@ -2,7 +2,7 @@
 if(NOT PROJECT_NAME)
     cmake_minimum_required(VERSION 3.20)
     include(cmake/CompilerSettings.cmake)
-    project(test
+    project(game2
         LANGUAGES C CXX
         VERSION 1.0.0.0
     )

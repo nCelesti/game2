@@ -1,6 +1,6 @@
 
 set(ENABLED_GEMS
-    test
+    game2
     Atom
     AudioSystem
     AWSCore
@@ -21,5 +21,4 @@ set(ENABLED_GEMS
     StartingPointInput
     TextureAtlas
     WhiteBox
-    Terrain
 )

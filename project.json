@@ -1,14 +1,14 @@
 {
-    "project_name": "test",
-    "origin": "The primary repo for test goes here: i.e. http://www.mydomain.com",
-    "license": "What license test uses goes here: i.e. https://opensource.org/licenses/MIT",
-    "display_name": "test",
-    "summary": "A short description of test.",
+    "project_name": "game2",
+    "origin": "The primary repo for game2 goes here: i.e. http://www.mydomain.com",
+    "license": "What license game2 uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "game2",
+    "summary": "A short description of game2.",
     "canonical_tags": [
         "Project"
     ],
     "user_tags": [
-        "test"
+        "game2"
     ],
     "icon_path": "preview.png",
     "engine": "o3de-sdk",
