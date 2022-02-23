@@ -1,15 +1,15 @@
 {
-    "gem_name": "test",
-    "display_name": "test",
-    "license": "What license test uses goes here: i.e. https://opensource.org/licenses/MIT",
-    "origin": "The primary repo for test goes here: i.e. http://www.mydomain.com",
+    "gem_name": "game2",
+    "display_name": "game2",
+    "license": "What license game2 uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "origin": "The primary repo for game2 goes here: i.e. http://www.mydomain.com",
     "type": "Code",
-    "summary": "A short description of test.",
+    "summary": "A short description of game2.",
     "canonical_tags": [
         "Gem"
     ],
     "user_tags": [
-        "test"
+        "game2"
     ],
     "icon_path": "preview.png",
     "requirements": ""

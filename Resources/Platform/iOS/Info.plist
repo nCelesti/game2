@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>test</string>
+	<string>game2</string>
 	<key>CFBundleExecutable</key>
-	<string>test.GameLauncher</string>
+	<string>game2.GameLauncher</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.amazon.lumberyard.test</string>
+	<string>com.amazon.lumberyard.game2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>test</string>
+	<string>game2</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
