@@ -21,8 +21,8 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[617904229543]",
-                    "Entity_[1283624160423]",
                     "Entity_[4345935842471]",
+                    "Entity_[1283624160423]",
                     "Entity_[4526324468903]",
                     "Entity_[4530619436199]",
                     "Entity_[4534914403495]",
@@ -212,7 +212,9 @@
                     "ColliderConfiguration": {
                         "MaterialSelection": {
                             "MaterialIds": [
-                                {}
+                                {
+                                    "MaterialId": "{6ACE67AA-CB32-41CD-8740-58371CCCD3F3}"
+                                }
                             ]
                         }
                     },
@@ -327,17 +329,17 @@
                     "Configuration": {
                         "entityId": "",
                         "CCD Enabled": true,
-                        "Mass": 904.77880859375,
+                        "Mass": 853.4773559570313,
                         "Centre of mass offset": [
-                            0.0,
-                            0.0,
-                            0.75
+                            -5.552415416332224e-9,
+                            -4.0302779780176934e-8,
+                            0.5669360756874084
                         ],
                         "Inertia tensor": {
                             "roll": 0.0,
                             "pitch": 0.0,
                             "yaw": 0.0,
-                            "scale": 0.007675293367356062
+                            "scale": 0.0030311637092381716
                         }
                     }
                 },
@@ -389,6 +391,56 @@
                         }
                     }
                 },
+                "Component_[7592509224518010188]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7592509224518010188,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            0.10000000149011612
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {
+                                    "MaterialId": "{A9CACCFF-E0D2-4149-8891-E92319229B2D}"
+                                }
+                            ]
+                        },
+                        "RestOffset": 0.009999999776482582
+                    },
+                    "ShapeConfiguration": {
+                        "Capsule": {
+                            "Height": 2.0,
+                            "Radius": 1.0
+                        },
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
+                                    "subId": 87459996
+                                },
+                                "assetHint": "objects/_primitives/_cylinder_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
+                                        "subId": 87459996
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_cylinder_1x1.pxmesh"
+                                },
+                                "AssetScale": [
+                                    1.399999976158142,
+                                    1.399999976158142,
+                                    0.20000000298023224
+                                ],
+                                "UseMaterialsFromAsset": false
+                            }
+                        }
+                    }
+                },
                 "Component_[7738271935738857270]": {
                     "$type": "EditorColliderComponent",
                     "Id": 7738271935738857270,
@@ -400,7 +452,9 @@
                         ],
                         "MaterialSelection": {
                             "MaterialIds": [
-                                {}
+                                {
+                                    "MaterialId": "{A9CACCFF-E0D2-4149-8891-E92319229B2D}"
+                                }
                             ]
                         }
                     },
@@ -635,13 +689,13 @@
                     "Id": 553736040584928771,
                     "Forces": [
                         {
-                            "Type": 2,
                             "ForceWorldSpace": {
                                 "Direction": [
                                     0.0,
-                                    2.0,
-                                    1.0
-                                ]
+                                    0.10000000149011612,
+                                    10.0
+                                ],
+                                "Magnitude": 7.0
                             },
                             "ForcePoint": {
                                 "Magnitude": -100000.0
